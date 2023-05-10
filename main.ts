@@ -4,24 +4,6 @@ input.onButtonPressed(Button.A, function () {
 input.onButtonPressed(Button.B, function () {
     music.startMelody(music.builtInMelody(Melodies.Birthday), MelodyOptions.Once)
 })
-basic.showString("APETOR!!")
-basic.showLeds(`
-    # . . . #
-    . # . # .
-    . . # . .
-    . # . # .
-    # . . . #
-    `)
-basic.pause(1000)
-basic.showLeds(`
-    # # # . .
-    # . . # .
-    # . . # .
-    # . . # .
-    # # # . .
-    `)
-basic.pause(1000)
-basic.clearScreen()
 basic.forever(function () {
     if (maqueen.readPatrol(maqueen.Patrol.PatrolRight) == 0 && maqueen.readPatrol(maqueen.Patrol.PatrolLeft) == 0) {
         maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 255)
