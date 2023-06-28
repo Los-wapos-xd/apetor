@@ -1,9 +1,3 @@
-input.onButtonPressed(Button.A, function () {
-    music.startMelody(music.builtInMelody(Melodies.Dadadadum), MelodyOptions.Once)
-})
-input.onButtonPressed(Button.B, function () {
-    music.startMelody(music.builtInMelody(Melodies.Birthday), MelodyOptions.Once)
-})
 basic.forever(function () {
     if (maqueen.readPatrol(maqueen.Patrol.PatrolRight) == 0 && maqueen.readPatrol(maqueen.Patrol.PatrolLeft) == 0) {
         maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 255)

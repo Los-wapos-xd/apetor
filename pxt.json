@@ -1,5 +1,5 @@
 {
-    "name": "Sigue lineas (trabajo robotica para ir a la feria xd) By: Pedro, Victor, Alejandro",
+    "name": "Sigue lineas By: Pedro",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -20,7 +20,7 @@
         "branch": "v2.0.6",
         "tag": "v2.0.6",
         "commits": "https://github.com/microsoft/pxt-microbit/commits/78a06a90847a7a9564487f021a81b2a5b9885f2d",
-        "target": "5.0.12",
+        "target": "6.0.8",
         "pxt": "5.15.12",
         "targetId": "microbit"
     },
